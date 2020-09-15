@@ -30,7 +30,7 @@ a:hover{
   text-decoration:underline;
 
 }
-button a:hover{
+button:hover{
   text-decoration: none;
   background-color: white;
   color:black;
@@ -39,9 +39,13 @@ button a:hover{
 
 
 .button{
-  padding:5px;
+  padding:10px;
   background-color:royalblue;
   
+}
+
+.button:hover{
+  background-color: royalblue;
 }
 #page-container {
   position: relative;
