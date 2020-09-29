@@ -1,5 +1,7 @@
 # google-homepage
+  This is an web development 101 odin-project
 
-This project is to build the Google.com homepage.
+
+  The objective of the  project is to clone the google.com homepage.
 
 

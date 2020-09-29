@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="google, search engine">
-  <meta name="description" content="This webpage is a search engine used to search out other webpages.">
-  <link rel="stylesheet" href="stylesheet/style.css">
-  <title>Google</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="google, search engine">
+    <meta name="description" content="This webpage is a search engine used to search out other webpages.">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Google</title>
+  </head>
 
-<body>
-  <header>
-    <div>      
-      <span>
-        <a class="header-links" href="https://mail.google.com">Gmail</a>
-      </span>
-      <span>
-        <a class="header-links" href="https://www.google.com.ng">Images</a>
-      </span>
-      <span>      
-          <button class="button" onclick="documents.location='https://accounts.google.com/signin'">Sign in</button>      </span>
-    </div>
-  </header>
-  <br>
-  <br>
-  
-  <main id="page-container">
-    <div id="content-wrap">
+  <body>
+    <header>  
       <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_img">
-        <form>
-          <label for="gsearch">Search</label>
-          <input type="search" style="border-radius:10px;" id="gsearch" name="search">
-        </form>
-      </div>
-      <br>
-      <br>
-      
-      <div>
-        <span>    
-          <button onclick="document.location='https://www.google.com'">Google Search</button>
-          <button onclick="document.location='https://www.google.com'">I'm Feeling Lucky</button>          
+        <span>
+          <a class="header-links" href="https://mail.google.com">Gmail</a>
         </span>
-      </div>
-      <br>
-      <br>     
-      <div>
-        <span>Google offered in 
-        <span><a href="#">Hausa</a></span>
-          <span><a href="#">Igbo</span></a>
-          <a href="#">Ede Yoruba</a>
-          <a href="#">Nigerian Pidgin</a>
+        <span>
+          <a class="header-links" href="https://www.google.com.ng">Images</a>
         </span>
-      </div>
-    </div>  
-  </main>
-  
-  
-
-  <footer id="footer">  
-    <div> 
-      <span>Nigeria</span>
-    </div>
+        <i class="material-icons">apps</i>
+        <span>      
+            <button type="button" onclick="documents.location='https://accounts.google.com/signin'">Sign in</button>      
+        </span>
+      </div>   
+    </header>
     <br>
-    <div>              
-      <span>
-        <a class="header-links" href="">Advertising</a>
-      </span>
-      <span>
-        <a class="header-links" href="">Business</a>
-      </span>
-      <span>
-        <a class="header-links" href="">About</a>
-      </span>
-      <span>
-        <a class="header-links" href="">How Search Works</a>
-      </span>
-      <span style="float:right">
-        <a class="header-links" href="#">Settings</a>
-      </span>
-      <span style="float:right">
-        <a class="header-links" href="#">Terms</a>
-      </span>        
-      <span style="float:right">
-        <a class="header-links" href="#">Privacy</a>
-      </span>
+    <br>
+    
+    <main>
+      <div id="center-maincontent">
+        <div>
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_img">
+          <form>
+            <div class="input-container">
+              <input class="input-field" name="search" autofocus autocomplete="false" maxlength="1000">
+            </div>   
+          </form>
+        </div>
+        <br>
+        <br>        
+        <div>
+          <span>    
+            <button type="submit">Google Search</button>
+            <button type="submit">I'm Feeling Lucky</button>          
+          </span>
+        </div>
+        <br>
+        <br>     
+        <div>
+          Google offered in: 
+          <span class="lang"><a href="#">Hausa</a></span>
+            <span class="lang"><a href="#">Igbo</a><span>
+            <span class="lang"><a href="#">Ede Yoruba</a></span>
+            <span class="lang"><a href="#">Nigerian Pidgin</a></span>
+        </div>
+      </div>  
+    </main>
+    
+    
 
-    </div>
-  </footer>
-  
-</body>
+    <footer id="content-wrap">  
+      <div id="page-container">
+        <span class="country">Nigeria</span>            
+        <div>
+        <span>
+          <a class="footer-links"  href="#">Advertising</a>
+        </span>
+        <span>
+          <a class="footer-links" href="#">Business</a>
+        </span>
+        <span>
+          <a class="footer-links"href="">About</a>
+        </span>
+        <span>
+          <a class="footer-links" href="#">How Search Works</a>
+        </span>
+        <span style="float: inline-end;">
+          <span>
+            <a class="footer-links" href="#">Privacy</a>
+          </span>
+          <span>
+            <a class="footer-links" href="#">Terms</a>
+          </span>        
+          <span>
+           <a class="footer-links" href="#">Settings</a>
+          </span>
+        </span>
+      </div>
+    </footer>
+    
+  </body>
 </html>
