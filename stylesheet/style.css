@@ -5,127 +5,135 @@ html,body{
 
 *{
   box-sizing:border-box;
+  margin: 0;
 }
+
 
 body{
   font-family: 'Times New Roman', Times, serif;
-  margin:10px;
+  margin:10px 10px 0 10px;
   font-size: 15px;
   font-style: italic;
   
 }
 
 /*This header, .header-links, header>a are in use in the header*/
-header{
-  float: right;
-  
+#header-container{
+  display: flex;
+  width: 100%;
 }
 
-.header-links{
-  color:black;
-  padding:10px;
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+
 }
 
-a{
-  text-decoration:none;
+.nav-link{
+  color: black;
+  padding: 10px;
 }
 
-a:hover{
-  text-decoration:underline;
+ .nav-list a{
+  text-decoration: none;
+}
+
+.nav-list a:hover{
+  text-decoration: underline;
 }
  
-[type="button"]{
+.btn{
   background-color: rgba(0, 153, 255, 0.575);
   border-radius: 5px;
   padding:5px;
   cursor: pointer;
-
 }
 
 
-main {
-  width:500px;
-  margin:auto;
+.main {
+  margin: 50px ;
+  
 }
 
+.img{
+  display: block;
+  margin: auto;
+}
 
-button:hover{
+.center-box{
+  width: 500px;
+  height: 50%;
+  margin: auto;
+}
+
+#input-search{
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+#btn-group{
   border-radius: 5px;
+  margin: 10px;
+}
+
+[type="submit"] a{
   text-decoration: none;
-  background-color: white;
-  color:#333;
-  cursor:pointer;
+  color: #333;
 }
 
-
-.button:hover{
-  background-color: royalblue;
+[type="submit"] a:hover{
+  text-decoration: underline;
 }
 
-/*This style is in use in the main element*/
-#center-maincontent{
-  text-align:center;
-  margin:70px 50px;
-}
-
-img{
-  display:block;
-  margin:auto;
-}
-
-.lang{
-  padding:0 5px;
-}
-
-[type="submit"]{
-  background-color: #f2f2f2;
-  border:1px solid #f2f2f2;
-  padding: 0 16px;
-  border-radius: 4px;
-  padding:5px;
-  cursor: pointer;
+#google-lang{
+  margin: 30px 0 0;
+  padding: 10px;
 
 }
- 
 
-.input-field { 
-  background-color: transparent;
-  width: 100%; 
-  padding: 10px; 
-  text-align: center;
-  border-radius: 20px;
+#google-lang a{
+  margin: 3px;
 }
 
-
-/*The footer styles*/
-
-
-footer { /* Footer height */
-  position: absolute;
-  bottom: 0;
+#footer{
+  margin: 100px 0 0 0; 
   width: 100%;
-  height: 3.5rem;  
-  background-color:#f2f2f2;
-  border:1px solid #f2f2f2;
-  color:grey;
-            
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgba(245, 239, 239, 0.993);
 }
 
-.footer-links{
-  margin-bottom:10px;
-  padding:10px 10px 10px 0;
-  color:grey;
+#foot-nigeria{
+  margin: 10px 0;
 }
 
-.country{
-  border-bottom: #f2f2f5;
+.footer-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0; 
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
+.footer-nav a{
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
 }
 
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+.footer-left-nav{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.footer-right-nav{
+  width: 20%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
 }

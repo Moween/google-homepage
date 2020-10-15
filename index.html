@@ -11,83 +11,57 @@
   </head>
 
   <body>
-    <header>  
-      <div>
-        <span>
-          <a class="header-links" href="https://mail.google.com">Gmail</a>
-        </span>
-        <span>
-          <a class="header-links" href="https://www.google.com.ng">Images</a>
-        </span>
-        <i class="material-icons">apps</i>
-        <span>      
-            <button type="button" onclick="documents.location='https://accounts.google.com/signin'">Sign in</button>      
-        </span>
-      </div>   
+    <header id="header-container">   
+      <nav class="nav-list">
+        <a class="nav-link" href="https://mail.google.com">Gmail</a>
+        <a class="nav-link" href="https://www.google.com.ng">Images</a>
+        <button type="button" class="btn">Sign in</button>       
+      </nav>   
     </header>
-    <br>
-    <br>
+
     
-    <main>
-      <div id="center-maincontent">
-        <div>
+    <main class="main">
+      <div class="center-box">
+        <div class="img">
           <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_img">
-          <form>
-            <div class="input-container">
-              <input class="input-field" name="search" autofocus autocomplete="false" maxlength="1000">
-            </div>   
-          </form>
+            <div cla>
+            <input id="input-search" type="search" name="search" autofocus autocomplete="false" maxlength="1000">
+            </div>          
+        </div>  
+
+        <div id="btn-group"> 
+          <button type="submit"><a href="#">Google Search</a></button>
+          <button type="submit"><a href="#">I'm Feeling Lucky</a></button>          
         </div>
-        <br>
-        <br>        
-        <div>
-          <span>    
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>          
-          </span>
-        </div>
-        <br>
-        <br>     
-        <div>
+        <div id="google-lang">
           Google offered in: 
-          <span class="lang"><a href="#">Hausa</a></span>
-            <span class="lang"><a href="#">Igbo</a><span>
-            <span class="lang"><a href="#">Ede Yoruba</a></span>
-            <span class="lang"><a href="#">Nigerian Pidgin</a></span>
+            <a href="#">Hausa</a>
+            <a href="#">Igbo</a>
+            <a href="#">Ede Yoruba</a>
+            <a href="#">Nigerian Pidgin</a>
         </div>
       </div>  
     </main>
     
     
 
-    <footer id="content-wrap">  
-      <div id="page-container">
-        <span class="country">Nigeria</span>            
-        <div>
-        <span>
-          <a class="footer-links"  href="#">Advertising</a>
+    <footer id="footer">   
+      <div id="foot-nigeria"> Nigeria<div>
+      <nav class="footer-nav">
+        <span class="footer-left-nav"> 
+          <a class="footer-link" href="#">Advertising</a>
+          <a class="footer-link" href="#">Business</a>
+          <a class="footer-link" href="">About</a>
+          <a class="footer-link" href="#">How Search Works</a>
         </span>
-        <span>
-          <a class="footer-links" href="#">Business</a>
+
+        <span class="footer-right-nav">  
+          <a class="footer-link" href="#">Privacy</a>
+          <a class="footer-link" href="#">Terms</a> 
+          <a class="footer-link" href="#">Settings</a>
         </span>
-        <span>
-          <a class="footer-links"href="">About</a>
-        </span>
-        <span>
-          <a class="footer-links" href="#">How Search Works</a>
-        </span>
-        <span style="float: inline-end;">
-          <span>
-            <a class="footer-links" href="#">Privacy</a>
-          </span>
-          <span>
-            <a class="footer-links" href="#">Terms</a>
-          </span>        
-          <span>
-           <a class="footer-links" href="#">Settings</a>
-          </span>
-        </span>
-      </div>
+      </nav>  
+ 
     </footer>
     
   </body>
