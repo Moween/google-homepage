@@ -13,9 +13,7 @@ body{
   font-family: arial, sans-serif;
   margin:10px 0 0 0;
   height: 100%;
-  font-size: 15px;
-  
-  
+  font-size: 15px;  
 }
 
 hr{
@@ -24,7 +22,7 @@ hr{
   height: 1px;
   background-color: rgba(243, 234, 234, 0.979);
 }
-/*This header, .header-links, header>a are in use in the header*/
+/*Header Styles. */
 #header-container{
   display: flex;
   width: 100%;
@@ -66,45 +64,59 @@ hr{
   
 }
 
-
+/* Main Element Styles. */
 .page-wrapper {
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 50%;
   justify-content: center;
-  align-items: center;
-  
+  margin: 40px 0 0 0;
+  width: 100%;
 }
 
-.img{
+#main-logo{
   display: block;
   margin: 0 auto;
 
 }
 
 #input-search{
+  height: 44px;
   margin: 10px;
   width: 500px;
   padding: 10px;
+  background-color: #fff;
+  border: 1px solid #c6c6c6;
+  border-radius: 30px;
 }
 
 #btn-group{
   margin: 10px;
 }
 
-[type="submit"] a{
-  text-decoration: none;
-  color: #333;
+[type="submit"] {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  line-height: 27px;
+  margin: 0 5px;
+  padding: 0 15px;  
 }
 
-[type="submit"] a:hover{
+[type="submit"]:hover{
+  background-color: white;
+  border: 1px solid #dfe1e5;
+  line-height: 27px;
+  margin: 0 5px;
+  padding: 0 15px;
   text-decoration: none;
-  background-color: #f8f8f8;
-  border-color: #c6c6c6;
+  cursor: pointer;
+  
 }
 
 #google-lang{
-  margin: 30px 0 0;
+  margin: 10px 0 0;
   padding: 10px;
 }
 
@@ -117,8 +129,9 @@ hr{
   text-decoration: underline;
 }
 
+/* Footer Styles */
 .site-footer{
-  background-color: rgba(245, 239, 239, 0.993);
+  background-color: #f2f2f2;
   border-top: 1px solid #c6c6c6;
   bottom: 0;
   display: flex;
@@ -131,7 +144,7 @@ hr{
 }
 
 
-#foot-nigeria{
+#top-footer{
   margin: 10px 0;
 }
 
