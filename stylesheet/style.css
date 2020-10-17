@@ -81,15 +81,36 @@ hr{
   margin: 0 auto;
 }
 
+.searchbar{
+  width: 500px;
+  display: flex;  
+}
+
 #input-search{
   height: 44px;
   margin: 10px;
-  width: 500px;
+  width: 700px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #c6c6c6;
   border-radius: 30px;
   outline: 0;
+}
+
+#search{
+  position: relative;
+  top: 1.5em;
+  left: 3em;
+  width: 1em;
+  color: red;
+}
+
+#microphone{
+  position: relative;
+  top: 1.48em;
+  right: 3em;
+  width: 1em;
+  color: dodgerblue;
 }
 
 #btn-group{
