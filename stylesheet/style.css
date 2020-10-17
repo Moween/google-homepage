@@ -26,12 +26,13 @@ hr{
 #header-container{
   display: flex;
   width: 100%;
+  justify-content: flex-end;
 }
 
 .nav-list{
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 20%;
   align-items: center;
 
 }
@@ -88,6 +89,7 @@ hr{
   background-color: #fff;
   border: 1px solid #c6c6c6;
   border-radius: 30px;
+  outline: 0;
 }
 
 #btn-group{
