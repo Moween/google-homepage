@@ -8,13 +8,14 @@ body {
   font-family: arial, sans-serif;
   margin:10px 0 0 0;
   height: 100%;
-  font-size: 18px;  
+  font-size: 14px;  
 }
 
 hr {
   border-style: none;
   border-top:  1px solid #c6c6c6;
   height: 1px;
+  color: #c6c6c68f;
   background-color: rgba(243, 234, 234, 0.979);
 }
 /*Header Styles. */
@@ -52,12 +53,11 @@ hr {
   border: 1px solid #4285f4;
   color: #f2f2f2;
   font-weight: bold;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 2px;
+  padding: 7px;
   cursor: default;
   margin-right: 20px;
-  font-size: 16px;
-  width: 100px;
+  width: 80px;
   
 }
 
@@ -73,8 +73,8 @@ hr {
 
 #main-logo {
   display: block;
-  max-width: 100%;
-  width: 400px;
+  /* max-width: 100%; */
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -98,8 +98,8 @@ hr {
 
 #search {
   position: relative;
-  top: 1.3rem;
-  right: 72rem;
+  top: 1.4rem;
+  right: 61rem;
   width: 1rem;
   color: red;
   height: 1rem;
@@ -108,8 +108,8 @@ hr {
 
 #microphone {
   position: relative;
-  top: 1.3rem;
-  right: 35rem;
+  top: 1.4rem;
+  right: 24rem;
   width: 1rem;
   color: dodgerblue;
   height: 1rem;
@@ -127,7 +127,6 @@ hr {
   line-height: 27px;
   margin: 0 5px;
   padding: 10px 20px; 
-  font-size: 18px; 
 }
 
 [type="submit"]:hover {
@@ -177,9 +176,7 @@ hr {
   color: #817e7eef;
 }
 
-hr {
-  color: #c6c6c68f;
-}
+
 
 .site-footer-nav {
   margin-right: 15px;
