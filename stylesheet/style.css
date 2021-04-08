@@ -87,7 +87,7 @@ hr {
 #input-search {
   height: 44px;
   margin: 10px  auto 10px;  
-  width: 700px;
+  width: 600px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #c6c6c6;
@@ -99,7 +99,7 @@ hr {
 #search {
   position: relative;
   top: 1.4rem;
-  right: 61rem;
+  right: 58rem;
   width: 1rem;
   color: red;
   height: 1rem;
@@ -109,7 +109,7 @@ hr {
 #microphone {
   position: relative;
   top: 1.4rem;
-  right: 24rem;
+  right: 27.5rem;
   width: 1rem;
   color: dodgerblue;
   height: 1rem;
